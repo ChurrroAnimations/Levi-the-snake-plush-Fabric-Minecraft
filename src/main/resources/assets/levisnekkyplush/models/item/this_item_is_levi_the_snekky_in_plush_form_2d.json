@@ -1,0 +1,6 @@
+{
+  "parent" :  "minecraft:item/handheld",
+  "textures" : {
+    "layer0": "levisnekkyplush:item/this_item_is_levi_the_snekky_in_plush_form"
+  }
+}

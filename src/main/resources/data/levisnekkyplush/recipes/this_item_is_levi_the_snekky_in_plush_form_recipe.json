@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GLG",
+    "Y G"
+  ],
+  "key": {
+    "G": {
+      "id": "minecraft:gray_wool"
+    },
+    "L": {
+      "id": "minecraft:lime_wool"
+    },
+    "Y": {
+      "id": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "levisnekkyplush:this_item_is_levi_the_snekky_in_plush_form",
+    "count": 1
+  }
+}

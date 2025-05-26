@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "levisnekkyplush",
+	"version": "${version}",
+	"name": "Levi Snekky Plush",
+	"description": "Adds Levi the snek to Minecraft in plush form. :3",
+	"authors": [
+		"Churro the turtle, AKA Tuesday Bettis"
+	],
+	"contact": {
+		"homepage": "https://churrroanimations.github.io/churros-page/",
+		"sources": "https://www.youtube.com/watch?v=lhckuhUxcgA"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/levisnekkyplush/levisnekkyplush-icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"github.churrroanimations.levisnekkyplush.LeviSnekkyPlush"
+		],
+		"client": [
+			"github.churrroanimations.levisnekkyplush.LeviSnekkyPlushClient"
+		],
+		"fabric-datagen": [
+			"github.churrroanimations.levisnekkyplush.LeviSnekkyPlushDataGenerator"
+		]
+	},
+	"mixins": [
+		"levisnekkyplush.mixins.json",
+		{
+			"config": "levisnekkyplush.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"This is a mod I swear": "dQw4w9WgXcQ"
+	}
+}
